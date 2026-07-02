@@ -21,7 +21,7 @@ Windows 10 1809+ / Windows 11 (winget requirement). x64 + arm64.
 - msstore vs winget sources: UI must distinguish.
 
 ## Design (see DESIGN.md)
-- Dark theme. Base `#212826`, accent **Blue `#0078D4`**, highlight `#0078D41A`, text `#F8F8F2` / `#ACADAD`.
+- Dark theme. Base `#222629`, accent **Blue `#0078D4`**, highlight `#0078D41A`, text `#F8F8F2` / `#ACADAD`.
 - App tag: **WINGET**. Fonts: Outfit/Inter (UI), Fira Code or JetBrains Mono (CLI output).
 
 ## Conventions
