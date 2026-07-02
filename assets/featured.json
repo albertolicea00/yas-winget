@@ -1,0 +1,50 @@
+{
+  "categories": [
+    {
+      "name": "Browsers",
+      "packages": [
+        {
+          "id": "Mozilla.Firefox",
+          "name": "Firefox",
+          "description": "Web browser",
+          "kind": ""
+        },
+        {
+          "id": "Google.Chrome",
+          "name": "Chrome",
+          "description": "Google's browser",
+          "kind": ""
+        },
+        {
+          "id": "Brave.Brave",
+          "name": "Brave",
+          "description": "Privacy browser",
+          "kind": ""
+        }
+      ]
+    },
+    {
+      "name": "Dev",
+      "packages": [
+        {
+          "id": "Git.Git",
+          "name": "Git",
+          "description": "Version control",
+          "kind": ""
+        },
+        {
+          "id": "Microsoft.VisualStudioCode",
+          "name": "VS Code",
+          "description": "Code editor",
+          "kind": ""
+        },
+        {
+          "id": "OpenJS.NodeJS",
+          "name": "Node.js",
+          "description": "JavaScript runtime",
+          "kind": ""
+        }
+      ]
+    }
+  ]
+}
