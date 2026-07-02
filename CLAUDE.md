@@ -21,6 +21,7 @@ Windows 10 1809+ / Windows 11 (winget requirement). x64 + arm64.
 - msstore vs winget sources: UI must distinguish.
 
 ## Design (see DESIGN.md)
+- UI shell: **Teams-style** — icon rail | list panel | detail pane (no in-app title header). Light/dark mode persisted via `YasManager` context property (`src/core/thememanager.*`, QSettings), toggle at rail bottom. Both palettes live in `qml/core/Theme.qml` (`Theme.dark`).
 - Dark theme. Base `#222629`, accent **Blue `#0078D4`**, highlight `#0078D41A`, text `#F8F8F2` / `#ACADAD`.
 - App tag: **WINGET**. Fonts: Outfit/Inter (UI), Fira Code or JetBrains Mono (CLI output).
 
